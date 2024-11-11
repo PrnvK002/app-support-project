@@ -12,7 +12,7 @@
                         <h2 class="ml-2">{{ $api->method }}</h2>
                     </div>
                     <h3>Fields</h3>
-                    <livewire:form-generator :fields="$api->fields">
+                    <livewire:form-generator :fields="$api->fields" :id="$api->id">
                 </div>
             </div>
         @endforeach
